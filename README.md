@@ -19,7 +19,9 @@ This repository is meant to be used with npm 3. For version 2 also install:
 ## Build
 
     node_modules/.bin/webpack
+    (On Win: "./node_modules/.bin/webpack")
 
 ## Dev
 
     node_modules/.bin/webpack-dev-server --hot --inline
+    (On Win: "./node_modules/.bin/webpack-dev-server" --hot --inline)
